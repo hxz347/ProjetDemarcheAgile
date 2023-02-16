@@ -6,7 +6,7 @@
 package tp04.exec;
 //token pwd
 //netbeansConnection
-//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
+//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
 
 import tp04.metier.Action;
 import tp04.metier.ActionComposee;
