@@ -6,7 +6,8 @@
 package tp04.exec;
 //token pwd
 //netbeansConnection
-//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 
+//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
+
 import tp04.metier.Action;
 import tp04.metier.ActionComposee;
 import tp04.metier.ActionSimple;
@@ -31,7 +32,7 @@ public class Run {
         // enrg de la composition de l'action composée
         bqAss.enrgComposition(axa, 0.3f);
         bqAss.enrgComposition(bnp, 0.7f);
-        // enrg. de 2 cours pour chaque action 
+        // enrg. de 2 cours pour chaque action
         axa.enrgCours(j1, 200);
         axa.enrgCours(j2, 250);
         bnp.enrgCours(j1, 100);
@@ -59,7 +60,7 @@ public class Run {
         System.out.println("Portefeuille : " + p);
         p.vendre(bnp, 50);
         System.out.println("Portefeuille : " + p);
- 
+
     }
 
 }
